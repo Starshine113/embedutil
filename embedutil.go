@@ -68,7 +68,7 @@ func (e *Embed) ImageURL(u string) *Embed {
 
 // ThumbnailURL ...
 func (e *Embed) ThumbnailURL(u string) *Embed {
-	e.imageURL = u
+	e.thumbnailURL = u
 	return e
 }
 
